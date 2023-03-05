@@ -17,7 +17,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v1.0.3
-      with:
+        uses: pozil/auto-assign-issue@v1.0.3
+        with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: fer-dev-mx
